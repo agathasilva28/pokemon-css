@@ -235,3 +235,97 @@
   top: -3px;
   left: 10px;
 }
+
+.charmander .fire {
+  position: relative;
+  z-index: 5;
+}
+
+.charmander .spark {
+  width: 21px;
+  height: 31px;
+  border-radius: 100%;
+  position: absolute;
+  left: 30px;
+  overflow: hidden;
+}
+
+.charmander .spark:before {
+  content: "";
+  width: 21px;
+  height: 31px;
+  border-radius: 100%;
+  background: #33363A;
+  position: absolute;
+  left: -4px;
+}
+
+.charmander .spark--back {
+  width: 16px;
+  height: 25px;
+  border-radius: 100%;
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  overflow: hidden;
+}
+
+.charmander .spark--back:before {
+  content: "";
+  width: 16px;
+  height: 25px;
+  border-radius: 100%;
+  position: absolute;
+  background: #FFD400;
+  left: -5px;
+}
+
+.charmander .spark--back:after {
+  content: "";
+  width: 8px;
+  height: 25px;
+  position: absolute;
+  background: #FFC200;
+  left: -3px;
+}
+
+.charmander .spark--inner {
+  width: 12px;
+  height: 18px;
+  border-radius: 100%;
+  position: absolute;
+  left: 4px;
+  top: 10px;
+  overflow: hidden;
+}
+
+.charmander .spark--inner:before {
+  content: "";
+  width: 12px;
+  height: 18px;
+  border-radius: 100%;
+  position: absolute;
+  left: -3px;
+  background: #FF5B00;
+}
+
+.charmander .spark--inner:after {
+  content: "";
+  width: 6px;
+  height: 18px;
+  position: absolute;
+  left: -2px;
+  background: #FF7900;
+}
+
+.charmander .spark.two {
+  transform: rotate(65deg);
+  left: 40px;
+  top: 9px;
+}
+
+.charmander .spark.three {
+  transform: rotate(32deg);
+  left: 37px;
+  top: 2px;
+}
