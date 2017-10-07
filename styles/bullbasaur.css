@@ -1,0 +1,355 @@
+.bullbasaur {
+  width: 128px;
+  height: 128px;
+  position: relative;
+}
+
+.bullbasaur .face {
+  width: 96px;
+  height: 80px;
+  border: 3px solid #33363A;
+  position: absolute;
+  top: 42px;
+  left: 13px;
+  border-radius: 95% / 100% 100% 89% 89%;
+  background: #6ADB9A;
+  overflow: hidden;
+
+  -webkit-box-shadow: inset 0px -17px 0px 0px #47C67B;
+  -moz-box-shadow: inset 0px -17px 0px 0px #47C67B;
+  box-shadow: inset 0px -17px 0px 0px #47C67B;
+  z-index: 5;
+}
+
+.bullbasaur .face:before {
+  content: "";
+  width: 96px;
+  height: 52px;
+  left: 0px;
+  top: -1px;
+  position: absolute;
+  display: block;
+  border-radius: 100%;
+  -webkit-box-shadow: inset 0px 10px 0px 0px #80EDAC;
+  -moz-box-shadow: inset 0px 10px 0px 0px #80EDAC;
+  box-shadow: inset 0px 10px 0px 0px #80EDAC;
+}
+
+.bullbasaur .eye {
+  width: 15px;
+  height: 15px;
+  background: #33363A;
+  border: 2px solid #33363A;
+  border-radius: 100%;
+  top: 30px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.bullbasaur .eye:before {   
+  width: 3px;
+  height: 3px;
+  content: "";
+  display: block;
+  background: #fff;
+  position: absolute;
+  top: 4px;
+  left: 2px;
+  border-radius: 100%;
+}
+
+.bullbasaur .eye:after {
+  content: "";
+  width: 20px;
+  height: 15px;
+  border-radius: 100%;
+  background: #AD2707;
+  display: block;
+  position: absolute;
+  left: -2px;
+  top: 10px;
+}
+
+.bullbasaur .eye.left {
+  left: 14px;
+}
+
+.bullbasaur .eye.right {
+  left: 62px;
+}
+
+.bullbasaur .mouth {
+  position: absolute;
+  left: 17px;
+  top: 48px;
+}
+
+.bullbasaur .lip:before {
+  content: "";
+  width: 9px;
+  height: 0px;
+  display: block;
+  border-radius: 0 100% 0 0;
+  border: 3px solid transparent;
+  border-top-color: #33363A;
+  border-right-color: #33363A;
+  position: absolute;
+  top: 7px;
+  left: 17px;
+  z-index: 5;
+}
+ 
+.bullbasaur .lip:after {
+  content: "";
+  width: 11px;
+  height: 4px;
+  display: block;
+  border-radius: 0 0 0 100%;
+  border: 3px solid transparent;
+  border-bottom-color: #33363A;
+  border-left-color: #33363A;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+.bullbasaur .lip.right {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  left: 62px;
+  position: absolute;
+  z-index: 5;
+}
+
+.bullbasaur .tongue {
+  width: 24px;
+  height: 5px;
+  border-radius: 50%/ 0 0 100% 100%;
+  border: 3px solid #33363A;
+  background: #AD4E3A;
+  top: 10px;
+  position: absolute;
+  left: 16px;
+  border-top: 0;
+}
+
+.bullbasaur .tongue:before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  content: "";
+  background: #6ADB9A;
+  width: 2px;
+  height: 2px;
+  margin-left: -1px;
+}
+
+.bullbasaur .nose {
+  position: absolute;
+  left: 42px;
+  top: 46px;
+  border-radius: 100%;
+  overflow: hidden;
+  width: 12px;
+  height: 7px;
+}
+
+.bullbasaur .nose:before,
+.bullbasaur .nose:after { 
+  content: "";
+  width: 3px;
+  height: 6px;
+  background: #33363A;
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+}
+
+.bullbasaur .nose:before { 
+  left: 1px;
+  transform: rotate(-30deg);
+}
+
+.bullbasaur .nose:after {
+  left: 8px;
+  transform: rotate(30deg);
+}
+
+.bullbasaur .nose-ligth {
+  width: 20px;
+  height: 6px;
+  background: #80EDAC;
+  top: 41px;
+  left: 38px;
+  position: absolute;
+  border-radius: 50% / 100% 100% 0 0;
+}
+
+.bullbasaur .ear {
+  width: 24px;
+  height: 21px;
+  top: 43px;
+  position: absolute;
+  left: 19px;
+  border-radius: 100%;
+  transform: rotate(-33deg);
+  background: #33363A;
+}
+
+.bullbasaur .ear:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 9px 5px 9px;
+  border-color: transparent transparent #33363A transparent;
+  position: absolute;
+  left: 3px;
+  top: -2px;
+}
+
+.bullbasaur .ear--inner {
+  width: 20px;
+  height: 17px;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: 100%;
+  background: #80EDAC;
+}
+
+.bullbasaur .ear--inner:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 7px 4px 7px;
+  border-color: transparent transparent #80EDAC transparent;
+  position: absolute;
+  left: 3px;
+  top: -2px;
+}
+
+.bullbasaur .ear.right {
+  transform: rotate(33deg);
+  left: 86px;
+}
+
+
+.bullbasaur .tail {
+  display: none;
+  transform: rotate(45deg);
+  background: #1A8E1C;
+  border: 3px solid #33363A;
+  border-radius: 35px 37px 100px 37px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 12px;
+  left: 11px;
+  -webkit-box-shadow: inset 3px 3px 0px 0px #43B330;
+  -moz-box-shadow: inset 3px 3px 0px 0px #43B330;
+  box-shadow: inset 3px 3px 0px 0px #43B330;
+}
+
+.bullbasaur .tail--inner {
+  width: 10px;
+  height: 53px;
+  border-radius: 8px;
+  transform: rotate(-72deg);
+  position: absolute;
+  top: -12px;
+  left: 24px;
+  border: 3px solid;
+  border-color: #33363A #33363A transparent transparent;
+  -webkit-box-shadow: inset -3px 3px 0px 0px #43B330;
+  -moz-box-shadow: inset -3px 3px 0px 0px #43B330;
+  box-shadow: inset -3px 3px 0px 0px #43B330;
+}
+
+.bullbasaur .tail--inner:before {
+  content: "";
+  width: 10px;
+  height: 53px;
+  border-radius: 8px;
+  transform: rotate(54deg);
+  position: absolute;
+  top: -12px;
+  left: -21px;
+  border: 3px solid;
+  border-color: transparent transparent transparent #33363A;
+  -webkit-box-shadow: inset 3px 3px 0px 0px #43B330;
+  -moz-box-shadow: inset 3px 3px 0px 0px #43B330;
+  box-shadow: inset 3px 3px 0px 0px #43B330;
+}
+
+.bullbasaur .tooth {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 5px 0 5px;
+  border-color: #33363A transparent transparent transparent;
+  top: 5px;
+  left: 0px;
+  position: absolute;
+  transform: rotate(27deg);
+}
+
+.bullbasaur .tooth.right {
+  left: 52px;
+  transform: rotate(-27deg);
+}
+
+.bullbasaur .tooth:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 4px 2px 0 2px;
+  border-color: #fff transparent transparent transparent;
+  top: -8px;
+  left: -2px;
+  position: absolute;
+}
+
+.bullbasaur .dot {
+  width: 14px;
+  height: 12px;
+  background: #47C67B;
+  border-radius: 100%;
+  position: absolute;
+  top: 11px;
+  left: 34px;
+}
+
+.bullbasaur .dot.two {
+  width: 5px;
+  height: 5px;
+  top: 19px;
+  left: 28px;
+}
+
+.bullbasaur .dot.three {
+  width: 5px;
+  height: 5px;
+  top: 19px;
+  left: 54px;
+}
+
+.bullbasaur .dot.four {
+  width: 4px;
+  height: 4px;
+  top: 17px;
+  left: 65px;
+}
+
+.bullbasaur .dot.five {
+  width: 3px;
+  height: 3px;
+  top: 34px;
+  left: 52px;
+}
