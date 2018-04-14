@@ -1,0 +1,188 @@
+.bellsprout {
+  background-size: 100% auto;
+  width: 128px;
+  height: 128px;
+  position: relative;
+}
+
+.bellsprout .face {
+  width: 96px;
+  height: 80px;
+  border: 3px solid #33363A;
+  position: absolute;
+  top: 0;
+  left: 13px;
+  border-radius: 95% / 100% 100% 89% 89%;
+  background: #fff800;
+  overflow: hidden;
+
+  -webkit-box-shadow: inset 0px -17px 0px 0px #eadf11;
+  -moz-box-shadow: inset 0px -17px 0px 0px #eadf11;
+  box-shadow: inset 0px -17px 0px 0px #eadf11;
+  z-index: 5;
+}
+
+.bellsprout .face:before {
+  content: "";
+  width: 96px;
+  height: 52px;
+  left: 0px;
+  top: -1px;
+  position: absolute;
+  display: block;
+  border-radius: 100%;
+  -webkit-box-shadow: inset 0px 10px 0px 0px #fffcc0;
+  -moz-box-shadow: inset 0px 10px 0px 0px #fffcc0;
+  box-shadow: inset 0px 10px 0px 0px #fffcc0;
+}
+
+.bellsprout .eye {
+  width: 15px;
+  height: 15px;
+  background: #33363A;
+  border: 2px solid #33363A;
+  border-radius: 100%;
+  top: 39px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.bellsprout .eye:before {
+  width: 3px;
+  height: 3px;
+  content: "";
+  display: block;
+  background: #fff;
+  position: absolute;
+  top: 4px;
+  left: 2px;
+  border-radius: 100%;
+}
+
+.bellsprout .eye:after {
+  content: "";
+  width: 20px;
+  height: 15px;
+  border-radius: 100%;
+  background: #6d5c4d;
+  display: block;
+  position: absolute;
+  left: -2px;
+  top: 10px;
+}
+
+.bellsprout .eye.left {
+  left: 14px;
+}
+
+.bellsprout .eye.right {
+  left: 62px;
+}
+
+.bellsprout .mouth {
+  position: absolute;
+  width: 42px;
+  height: 25px;
+  background: #c68510;
+  left: 40px;
+  top: 62px;
+  z-index: 10;
+  border-radius: 7px;
+  border: 3px solid #33363A;
+  overflow: hidden;
+}
+
+.bellsprout .mouth:before {
+  content: "";
+  width: 100%;
+  height: 5px;
+  background: #e8a113;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bellsprout .mouth--inner {
+  position: absolute;
+  width: 22px;
+  height: 12px;
+  background: #965514;
+  left: 7px;
+  top: 4px;
+  z-index: 10;
+  border-radius: 5px;
+  border: 3px solid #33363A;
+  overflow: hidden;
+}
+
+.bellsprout .mouth--inner:before {
+  content: "";
+  width: 100%;
+  height: 6px;
+  background: #663c17;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bellsprout .nose-ligth {
+  width: 20px;
+  height: 6px;
+  background: #fffcc0;
+  top: 56px;
+  left: 38px;
+  position: absolute;
+  border-radius: 50% / 100% 100% 0 0;
+}
+
+.trunk {
+  position: absolute;
+  width: 6px;
+  height: 36px;
+  background: #663c17;
+  left: 58px;
+  top: 89px;
+  border: 3px solid #33363A;
+  border-bottom: 0;
+}
+
+.leaf {
+  width: 33px;
+  height: 33px;
+  border-radius: 0 85%;
+  position: absolute;
+  left: 20px;
+  top: 88px;
+  overflow: hidden;
+  background: #91ea57;
+  transform: rotate(-9deg);
+  border: 3px solid #33363A;
+}
+
+.leaf.right {
+  left: 69px;
+  top: 89px;
+  transform: rotate(-75deg);
+}
+
+.leaf:after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 50px;
+  background: #33363A;
+  transform: rotate(-47deg);
+  top: -9px;
+  left: 15px;
+}
+
+.leaf:before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 50px;
+  background: #34c166;
+  transform: rotate(-47deg);
+  top: -5px;
+  left: 3px;
+}

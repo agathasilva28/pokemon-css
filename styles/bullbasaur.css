@@ -46,7 +46,7 @@
   overflow: hidden;
 }
 
-.bullbasaur .eye:before {   
+.bullbasaur .eye:before {
   width: 3px;
   height: 3px;
   content: "";
@@ -98,7 +98,7 @@
   left: 17px;
   z-index: 5;
 }
- 
+
 .bullbasaur .lip:after {
   content: "";
   width: 11px;
@@ -158,7 +158,7 @@
 }
 
 .bullbasaur .nose:before,
-.bullbasaur .nose:after { 
+.bullbasaur .nose:after {
   content: "";
   width: 3px;
   height: 6px;
@@ -169,7 +169,7 @@
   top: 2px;
 }
 
-.bullbasaur .nose:before { 
+.bullbasaur .nose:before {
   left: 1px;
   transform: rotate(-30deg);
 }
@@ -239,9 +239,7 @@
   left: 86px;
 }
 
-
 .bullbasaur .tail {
-  display: none;
   transform: rotate(45deg);
   background: #1A8E1C;
   border: 3px solid #33363A;
