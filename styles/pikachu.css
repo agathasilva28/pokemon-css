@@ -173,7 +173,7 @@
   z-index: 10;
 }
 
-.pikachu .ear--inner {
+.pikachu .ear__inner {
   width: .351em;
   height: .507em;
   border-radius: 100%;
@@ -184,7 +184,7 @@
   overflow: hidden;
 }
 
-.pikachu .ear--inner:before {
+.pikachu .ear__inner:before {
   content: "";
   height: 100%;
   width: 25%;
@@ -196,7 +196,7 @@
   transform: rotate(4deg);
 }
 
-.pikachu .ear--inner:after {
+.pikachu .ear__inner:after {
   content: "";
   height: 95%;
   width: 0.195em;
@@ -208,7 +208,7 @@
   top: -0.234em;
 }
 
-.pikachu .ear--line {
+.pikachu .ear__line {
   width: .398em;
   height: .585em;
   border-radius: 100%;
@@ -220,15 +220,15 @@
   z-index: 0;
 }
 
-.pikachu .ear--line .ear--inner {
+.pikachu .ear__line .ear__inner {
   background: #33363A;
   top: 0em;
   left: -0.156em;
   height: .523em;
 }
 
-.pikachu .ear--line .ear--inner:before,
-.pikachu .ear--line .ear--inner:after {
+.pikachu .ear__line .ear__inner:before,
+.pikachu .ear__line .ear__inner:after {
   display: none;;
 }
 
@@ -239,16 +239,16 @@
   top: .101em;
 }
 
-.pikachu .ear.right .ear--inner:after {
+.pikachu .ear.right .ear__inner:after {
   right: -0.031em;
 }
 
-.pikachu .ear.right .ear--inner:before {
+.pikachu .ear.right .ear__inner:before {
   right: -3%;
   transform: rotate(8deg);
 }
 
-.pikachu .ear--line.right {
+.pikachu .ear__line.right {
   transform: rotate(27deg);
   left: .75em;
   top: .078em;

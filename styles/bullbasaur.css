@@ -212,7 +212,7 @@
   top: -2px;
 }
 
-.bullbasaur .ear--inner {
+.bullbasaur .ear__inner {
   width: 20px;
   height: 17px;
   position: absolute;
@@ -222,7 +222,7 @@
   background: #80EDAC;
 }
 
-.bullbasaur .ear--inner:before {
+.bullbasaur .ear__inner:before {
   content: "";
   width: 0;
   height: 0;
@@ -254,7 +254,7 @@
   box-shadow: inset 3px 3px 0px 0px #43B330;
 }
 
-.bullbasaur .tail--inner {
+.bullbasaur .tail__inner {
   width: 10px;
   height: 53px;
   border-radius: 8px;
@@ -269,7 +269,7 @@
   box-shadow: inset -3px 3px 0px 0px #43B330;
 }
 
-.bullbasaur .tail--inner:before {
+.bullbasaur .tail__inner:before {
   content: "";
   width: 10px;
   height: 53px;
