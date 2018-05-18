@@ -1,0 +1,156 @@
+.zubat {
+  background-size: 100% auto;
+  width: 128px;
+  height: 128px;
+  position: relative;
+}
+
+.zubat .face {
+  width: 96px;
+  height: 80px;
+  border: 3px solid #33363A;
+  position: absolute;
+  top: 33px;
+  left: 13px;
+  border-radius: 95% / 100% 100% 89% 89%;
+  background: #4F74E8;
+  overflow: hidden;
+
+  -webkit-box-shadow: inset 0px -17px 0px 0px #3662CE;
+  -moz-box-shadow: inset 0px -17px 0px 0px #3662CE;
+  box-shadow: inset 0px -17px 0px 0px #3662CE;
+}
+
+.zubat .face:before {
+  content: "";
+  width: 96px;
+  height: 52px;
+  left: 0px;
+  top: -1px;
+  position: absolute;
+  display: block;
+  border-radius: 100%;
+  -webkit-box-shadow: inset 0px 10px 0px 0px #6892FC;
+  -moz-box-shadow: inset 0px 10px 0px 0px #6892FC;
+  box-shadow: inset 0px 10px 0px 0px #6892FC;
+}
+
+.zubat .mouth {
+  position: absolute;
+  left: 22px;
+  top: 30px;
+  border: 3px solid #33363A;
+  width: 49px;
+  height: 37px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #33363A;
+}
+
+.zubat .tongue {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 18px;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+  background: #702252;
+}
+
+.zubat .nose__ligth {
+  width: 20px;
+  height: 4px;
+  background: #6892FC;
+  top: 26px;
+  left: 38px;
+  position: absolute;
+  border-radius: 50% / 100% 100% 0 0;
+}
+
+.zubat .ear {
+  width: 45px;
+  height: 45px;
+  top: 14px;
+  position: absolute;
+  left: 0;
+  border: 3px solid #33363A;
+  border-radius: 79% 0;
+  transform: rotate(-77deg);
+  background: #6892FC;
+  overflow: hidden;
+}
+
+.zubat .ear.right {
+  transform: rotate(-15deg);
+  left: 79px;
+}
+
+.zubat .ear:before {
+  content: "";
+  width: 89px;
+  height: 50%;
+  position: absolute;
+  left: -31px;
+  top: 3px;
+  background: #3662CE;
+  transform: rotate(-45deg);
+}
+
+.zubat .ear.right:before {
+  left: -13px;
+  top: 18px;
+}
+
+.zubat .ear__inner {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 7px;
+  left: 8px;
+  border-radius: 74% 0;
+  background: #EFA3CC;
+  border: 3px solid #33363A;
+}
+
+.zubat .tooth {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 4px 0 4px;
+  border-color: #fff transparent transparent transparent;
+  top: 0;
+  left: 11px;
+  position: absolute;
+}
+
+.zubat .tooth.two {
+  left: 29px;
+}
+
+.zubat .tooth--bottom {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 6px 13px 6px;
+  border-color: transparent transparent #33363A transparent;
+  bottom: 0;
+  left: 4px;
+  position: absolute;
+}
+
+.zubat .tooth--bottom.four {
+  left: 32px;
+}
+
+.zubat .tooth--bottom:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 3px 9px 3px;
+  border-color: transparent transparent #fff transparent;
+  bottom: -13px;
+  left: -3px;
+  position: absolute;
+}
