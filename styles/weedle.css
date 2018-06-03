@@ -1,0 +1,141 @@
+.weedle {
+  background-size: 100% auto;
+  width: 128px;
+  height: 128px;
+  position: relative;
+  background-size: 100%;
+}
+
+.weedle .face {
+  width: 96px;
+  height: 80px;
+  border: 3px solid #33363A;
+  position: absolute;
+  top: 43px;
+  left: 13px;
+  border-radius: 95% / 100% 100% 89% 89%;
+  background: #DDC38A;
+  overflow: hidden;
+
+  -webkit-box-shadow: inset 0px -17px 0px 0px #C6A86D;
+  -moz-box-shadow: inset 0px -17px 0px 0px #C6A86D;
+  box-shadow: inset 0px -17px 0px 0px #C6A86D;
+}
+
+.weedle .face:before {
+  content: "";
+  width: 96px;
+  height: 52px;
+  left: 0px;
+  top: -1px;
+  position: absolute;
+  display: block;
+  border-radius: 100%;
+  -webkit-box-shadow: inset 0px 10px 0px 0px #F2D9A7;
+  -moz-box-shadow: inset 0px 10px 0px 0px #F2D9A7;
+  box-shadow: inset 0px 10px 0px 0px #F2D9A7;
+}
+
+.weedle .eye {
+  width: 15px;
+  height: 15px;
+  background: #33363A;
+  border: 2px solid #33363A;
+  border-radius: 100%;
+  top: 32px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.weedle .eye:before {
+  width: 3px;
+  height: 3px;
+  content: "";
+  display: block;
+  background: #fff;
+  position: absolute;
+  top: 4px;
+  left: 2px;
+  border-radius: 100%;
+}
+
+.weedle .eye:after {
+  content: "";
+  width: 20px;
+  height: 15px;
+  border-radius: 100%;
+  background: #6D5C4D;
+  display: block;
+  position: absolute;
+  left: -2px;
+  top: 10px;
+}
+
+.weedle .eye.left {
+  left: 14px;
+}
+
+.weedle .eye.right {
+  left: 62px;
+}
+
+.weedle .mouth {
+  position: absolute;
+  left: 24px;
+  top: 46px;
+  border: 3px solid #33363A;
+  width: 42px;
+  height: 24px;
+  border-radius: 100%;
+  background: #AF4AD1;
+  -webkit-box-shadow: inset 0px -52px 0px -39px #923BB7;
+  -moz-box-shadow: inset 0px -52px 0px -39px #923BB7;
+  box-shadow: inset 0px -52px 0px -39px #923BB7;
+}
+
+.weedle .nose__ligth {
+  width: 21px;
+  height: 6px;
+  background: #F2D9A7;
+  top: 38px;
+  left: 38px;
+  position: absolute;
+  border-radius: 50% / 100% 100% 0 0;
+}
+
+.weedle .horn {
+  position: absolute;
+  left: 36px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 28px 62px 28px;
+  border-color: transparent transparent  #33363A transparent;
+  border-radius: 0 0 50% 50% / 0 0 15px 15px;
+}
+
+.weedle .horn:before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: -23px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 23px 53px 23px;
+  border-color: transparent transparent #fff transparent;
+  border-radius: 0 0 50% 50% / 0 0 10px 10px;
+}
+
+.weedle .horn:after {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: -11px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 11px 53px 11px;
+  border-color: transparent transparent #D9E7E8 transparent;
+  border-radius: 0 0 50% 50% / 0 0 3px 3px;
+}
